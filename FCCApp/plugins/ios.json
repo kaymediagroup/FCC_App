@@ -1,0 +1,50 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-3dtouch": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-calendar": {
+            "CALENDAR_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.appimobile.mychurch"
+        }
+    }
+}
