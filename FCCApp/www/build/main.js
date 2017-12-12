@@ -134,44 +134,6 @@ LocationMapPage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnectPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ConnectPage = (function () {
-    function ConnectPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.subitem = [];
-        this.subitem = navParams.get('subitem');
-    }
-    return ConnectPage;
-}());
-ConnectPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-connect',template:/*ion-inline-start:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\connect\connect.html"*/'<ion-header>\n\n  <ion-navbar color="myRed">\n    <ion-title>{{subitem.title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <img [src]="subitem.photo" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />\n  <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitem.loaded">\n  \n  <div padding>\n    \n  <h1>{{subitem.heading}}</h1>\n      \n  <p class="text" [innerHTML]="subitem.description"></p>\n  <p class="text" [innerHTML]="subitem.details"></p>\n    \n  </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\connect\connect.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-], ConnectPage);
-
-//# sourceMappingURL=connect.js.map
-
-/***/ }),
-
-/***/ 161:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EpisodePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
@@ -203,6 +165,44 @@ EpisodePage = __decorate([
 ], EpisodePage);
 
 //# sourceMappingURL=episode.js.map
+
+/***/ }),
+
+/***/ 161:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnectPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ConnectPage = (function () {
+    function ConnectPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.subitem = [];
+        this.subitem = navParams.get('subitem');
+    }
+    return ConnectPage;
+}());
+ConnectPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-connect',template:/*ion-inline-start:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\connect\connect.html"*/'<ion-header>\n\n  <ion-navbar color="myRed">\n    <ion-title>{{subitem.title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <img [src]="subitem.photo" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />\n  <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitem.loaded">\n  \n  <div padding>\n    \n  <h1>{{subitem.heading}}</h1>\n      \n  <p class="text" [innerHTML]="subitem.description"></p>\n  <p class="text" [innerHTML]="subitem.details"></p>\n    \n  </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\connect\connect.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], ConnectPage);
+
+//# sourceMappingURL=connect.js.map
 
 /***/ }),
 
@@ -384,11 +384,50 @@ MinistryDetailsPage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var MusicPage = (function () {
+    function MusicPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.music = "videos";
+        this.subitem = [];
+        this.subitem = navParams.get('subitem');
+    }
+    return MusicPage;
+}());
+MusicPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-music',template:/*ion-inline-start:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\music\music.html"*/'<ion-header>\n\n  <ion-navbar color="myRed">\n    <ion-title>{{subitem.title}}</ion-title>\n  </ion-navbar>\n\n  <ion-toolbar no-border-top color="myRed">\n    <ion-segment color="myDark" [(ngModel)]="music">\n      <ion-segment-button value="videos">\n        {{subitem.video_title}}\n      </ion-segment-button>\n      <ion-segment-button value="audio">\n        {{subitem.audio_title}}\n      </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n\n</ion-header>\n\n\n<ion-content>\n\n<div [ngSwitch]="music">\n\n  <div *ngFor="let subitems of subitem.videos">\n    <ion-card *ngSwitchCase="\'videos\'" class="border">\n      <iframe width="100%" height="315" [src]="subitems.videoURL | videos" frameborder="0" allowfullscreen></iframe>\n      <ion-card-content>\n        <ion-card-title>{{subitems.title}}</ion-card-title>\n        <p>{{subitems.artist}}</p>\n      </ion-card-content>\n    </ion-card>\n  </div>\n\n  <div *ngFor="let subitems of subitem.audio">\n    <ion-card *ngSwitchCase="\'audio\'" class="border">\n      <iframe width="100%" height="70" [src]="subitems.audioURL | videos" frameborder="0" allowfullscreen></iframe>\n      <ion-card-content>\n        <ion-card-title>{{subitems.title}}</ion-card-title>\n        <p>{{subitems.artist}}</p>\n      </ion-card-content>\n    </ion-card>\n  </div>\n\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\music\music.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], MusicPage);
+
+//# sourceMappingURL=music.js.map
+
+/***/ }),
+
+/***/ 167:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MorePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__social_social__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__music_music__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__social_social__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__music_music__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tithing_tithing__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__connect_connect__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__connect_connect__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ministries_ministries__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__leaders_leaders__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__branches_branches__ = __webpack_require__(158);
@@ -464,7 +503,7 @@ MorePage = __decorate([
 
 /***/ }),
 
-/***/ 167:
+/***/ 168:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -499,45 +538,6 @@ SocialPage = __decorate([
 ], SocialPage);
 
 //# sourceMappingURL=social.js.map
-
-/***/ }),
-
-/***/ 168:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var MusicPage = (function () {
-    function MusicPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.music = "videos";
-        this.subitem = [];
-        this.subitem = navParams.get('subitem');
-    }
-    return MusicPage;
-}());
-MusicPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-music',template:/*ion-inline-start:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\music\music.html"*/'<ion-header>\n\n  <ion-navbar color="myRed">\n    <ion-title>{{subitem.title}}</ion-title>\n  </ion-navbar>\n\n  <ion-toolbar no-border-top color="myRed">\n    <ion-segment color="myDark" [(ngModel)]="music">\n      <ion-segment-button value="videos">\n        {{subitem.video_title}}\n      </ion-segment-button>\n      <ion-segment-button value="audio">\n        {{subitem.audio_title}}\n      </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n\n</ion-header>\n\n\n<ion-content>\n\n<div [ngSwitch]="music">\n\n  <div *ngFor="let subitems of subitem.videos">\n    <ion-card *ngSwitchCase="\'videos\'" class="border">\n      <iframe width="100%" height="315" [src]="subitems.videoURL | videos" frameborder="0" allowfullscreen></iframe>\n      <ion-card-content>\n        <ion-card-title>{{subitems.title}}</ion-card-title>\n        <p>{{subitems.artist}}</p>\n      </ion-card-content>\n    </ion-card>\n  </div>\n\n  <div *ngFor="let subitems of subitem.audio">\n    <ion-card *ngSwitchCase="\'audio\'" class="border">\n      <iframe width="100%" height="70" [src]="subitems.audioURL | videos" frameborder="0" allowfullscreen></iframe>\n      <ion-card-content>\n        <ion-card-title>{{subitems.title}}</ion-card-title>\n        <p>{{subitems.artist}}</p>\n      </ion-card-content>\n    </ion-card>\n  </div>\n\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\pages\music\music.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-], MusicPage);
-
-//# sourceMappingURL=music.js.map
 
 /***/ }),
 
@@ -681,7 +681,7 @@ NewsPage = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SeriesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__episode_episode__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__episode_episode__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -755,11 +755,11 @@ var map = {
 		14
 	],
 	"../pages/connect/connect.module": [
-		464,
+		465,
 		13
 	],
 	"../pages/episode/episode.module": [
-		465,
+		464,
 		12
 	],
 	"../pages/event-details/event-details.module": [
@@ -783,11 +783,11 @@ var map = {
 		7
 	],
 	"../pages/more/more.module": [
-		471,
+		472,
 		6
 	],
 	"../pages/music/music.module": [
-		472,
+		471,
 		5
 	],
 	"../pages/news-article/news-article.module": [
@@ -838,7 +838,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bible_bible__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sermons_sermons__ = __webpack_require__(306);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__news_news__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__more_more__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__more_more__ = __webpack_require__(167);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1062,16 +1062,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_bible_bible__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_sermons_sermons__ = __webpack_require__(306);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_news_news__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_more_more__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_more_more__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__ = __webpack_require__(303);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_series_series__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_episode_episode__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_episode_episode__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_event_details_event_details__ = __webpack_require__(162);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_news_article_news_article__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_social_social__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_music_music__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_social_social__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_music_music__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tithing_tithing__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_connect_connect__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_connect_connect__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_ministries_ministries__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_leaders_leaders__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_branches_branches__ = __webpack_require__(158);
@@ -1159,15 +1159,15 @@ AppModule = __decorate([
                 links: [
                     { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/branches/branches.module#BranchesPageModule', name: 'BranchesPage', segment: 'branches', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/connect/connect.module#ConnectPageModule', name: 'ConnectPage', segment: 'connect', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/episode/episode.module#EpisodePageModule', name: 'EpisodePage', segment: 'episode', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/connect/connect.module#ConnectPageModule', name: 'ConnectPage', segment: 'connect', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/event-details/event-details.module#EventDetailsPageModule', name: 'EventDetailsPage', segment: 'event-details', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/leaders/leaders.module#LeadersPageModule', name: 'LeadersPage', segment: 'leaders', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/location-map/location-map.module#LocationMapPageModule', name: 'LocationMapPage', segment: 'location-map', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/ministries/ministries.module#MinistriesPageModule', name: 'MinistriesPage', segment: 'ministries', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/ministry-details/ministry-details.module#MinistryDetailsPageModule', name: 'MinistryDetailsPage', segment: 'ministry-details', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/more/more.module#MorePageModule', name: 'MorePage', segment: 'more', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/music/music.module#MusicPageModule', name: 'MusicPage', segment: 'music', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/more/more.module#MorePageModule', name: 'MorePage', segment: 'more', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/news-article/news-article.module#NewsArticlePageModule', name: 'NewsArticlePage', segment: 'news-article', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/news/news.module#NewsPageModule', name: 'NewsPage', segment: 'news', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/series/series.module#SeriesPageModule', name: 'SeriesPage', segment: 'series', priority: 'low', defaultHistory: [] },
@@ -1336,15 +1336,14 @@ var MyApp = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Nav */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({template:/*ion-inline-start:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\bruno\Documents\KayMedia\FCCApp_v1.1\FCC_App\FCCApp\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__ionic_native_three_dee_touch__["a" /* ThreeDeeTouch */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__ionic_native_three_dee_touch__["a" /* ThreeDeeTouch */]) === "function" && _e || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_three_dee_touch__["a" /* ThreeDeeTouch */]])
 ], MyApp);
 
-var _a, _b, _c, _d, _e;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),

@@ -1,6 +1,6 @@
 {
-  "name": "myChurch",
-  "app_id": "",
+  "name": "4waysChurch",
+  "app_id": "c5ff90b4",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
